@@ -10,8 +10,7 @@ class Ejercicio2 extends StatelessWidget {
       body:Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/im1.jpg"),
-           
+            image: AssetImage("assets/im1.jpg"),fit: BoxFit.cover
           ),
         ),
         child: formulario(context),

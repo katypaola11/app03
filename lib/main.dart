@@ -67,18 +67,4 @@ class _CuerpoState extends State<Cuerpo> {
   }
 }
 
-class EjercicioDos extends StatelessWidget {
-  const EjercicioDos({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: const BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/fondo.jpg'),
-          fit: BoxFit.cover,
-        ),
-      ),
-    );
-  }
-}
